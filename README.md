@@ -1,3 +1,25 @@
+Projects Overview
+
+Smart Water Flow Meter
+This YAML configuration is for a water flow meter that tracks tank capacity, inflow, and outflow. The system automatically calculates and adjusts the total water percentage in your tank based on real-time flow data. Features include:
+
+Tank capacity adjustment: Set the total tank volume via a slider in Home Assistant.
+Flow control: Track water in and out, with adjustments also available via sliders.
+Automatic calculation: Updates the tank percentage dynamically based on flows.
+
+Prerequisites
+ESPHome installed on your local machine or accessible via Home Assistant.
+Compatible ESP devices:
+ESP32-based board for the water flow meter.
+water flow sensor.
+Basic knowledge of YAML configuration and Home Assistant integration.
+
+Setup Instructions
+Copy the desired YAML configuration(s) to your ESPHome directory.
+Modify the YAML file to match your hardware setup:
+For the Water Flow Meter, configure GPIO pins, tank capacity, and initial settings.
+Upload the configuration to your ESP device using ESPHome.
+
 # esp-home-water-flow-sensor
 Water Tank Level
 
